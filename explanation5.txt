@@ -1,0 +1,3 @@
+Explanation of Phase 5:
+
+The attractor and repeller boids (red & blue) exert a force on the balls inversely proportional to the square of the distance. The snakes follow Reynold's wandering algorithm and are repelled from the edges of the canvas.Each segment moves towards the updated position of the segment in front of it for smooth motion.The particle system of arrows that appear when the canvas is clicked. The arrows "die" after a certain number of frames and are continuously emitted from the location of the click. They point in the direction of their velocity.The white arrows flock together. The buttons at the bottom of the canvas turn off the different 'creatures' in the ecosystem when clicked and change from green to red for on/off.
